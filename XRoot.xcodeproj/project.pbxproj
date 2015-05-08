@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B600CC35193718D6003498C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B600CC34193718D6003498C3 /* Cocoa.framework */; };
+		B600CC3F193718D6003498C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B600CC3D193718D6003498C3 /* InfoPlist.strings */; };
+		B600CC41193718D6003498C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B600CC40193718D6003498C3 /* main.m */; };
+		B600CC45193718D6003498C3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B600CC43193718D6003498C3 /* Credits.rtf */; };
+		B600CC48193718D6003498C3 /* XROAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B600CC47193718D6003498C3 /* XROAppDelegate.m */; };
+		B600CC4D193718D6003498C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B600CC4C193718D6003498C3 /* Images.xcassets */; };
+		B600CC54193718D6003498C3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B600CC53193718D6003498C3 /* XCTest.framework */; };
+		B600CC55193718D6003498C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B600CC34193718D6003498C3 /* Cocoa.framework */; };
+		B600CC5D193718D6003498C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B600CC5B193718D6003498C3 /* InfoPlist.strings */; };
+		B600CC5F193718D6003498C3 /* XRootTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B600CC5E193718D6003498C3 /* XRootTests.m */; };
+		B605FC5419992C8A00355770 /* pwn in Resources */ = {isa = PBXBuildFile; fileRef = B605FC5319992C8A00355770 /* pwn */; };
+		B636318D1957351B004AB6A5 /* towelroot.apk in Resources */ = {isa = PBXBuildFile; fileRef = B636318C195734A9004AB6A5 /* towelroot.apk */; };
+		B636318E19573F18004AB6A5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B600CC38193718D6003498C3 /* CoreData.framework */; };
+		B63C2C5B19588E5600C60AB9 /* root.sh in Resources */ = {isa = PBXBuildFile; fileRef = B63C2C5A19588E5600C60AB9 /* root.sh */; };
+		B63C2C5C19588E8F00C60AB9 /* exynos in Resources */ = {isa = PBXBuildFile; fileRef = B63C2C5819588E4000C60AB9 /* exynos */; };
+		B63C2C5D19588E9500C60AB9 /* root in Resources */ = {isa = PBXBuildFile; fileRef = B63C2C5919588E4A00C60AB9 /* root */; };
+		B6416DA1195AF56E008A7EC2 /* install-recovery.sh in Resources */ = {isa = PBXBuildFile; fileRef = B6416DA0195AF56E008A7EC2 /* install-recovery.sh */; };
+		B6416DA2195AF95A008A7EC2 /* getroot in Resources */ = {isa = PBXBuildFile; fileRef = B6416D9F195AF502008A7EC2 /* getroot */; };
+		B65379881993751F00CFE8E0 /* XRoot-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B600CC3C193718D6003498C3 /* XRoot-Info.plist */; };
+		B653798D199376FE00CFE8E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B653798B199376FE00CFE8E0 /* MainMenu.xib */; };
+		B653799319937BDA00CFE8E0 /* HUDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B653799219937BDA00CFE8E0 /* HUDWindow.m */; };
+		B65B4A44195B10680010FA29 /* su in Resources */ = {isa = PBXBuildFile; fileRef = B65B4A43195B10680010FA29 /* su */; };
+		B6AF51F31952145E00BB76D1 /* adb in Resources */ = {isa = PBXBuildFile; fileRef = B6AF51F01952145E00BB76D1 /* adb */; };
+		B6AF51F41952145E00BB76D1 /* busybox in Resources */ = {isa = PBXBuildFile; fileRef = B6AF51F11952145E00BB76D1 /* busybox */; };
+		B6AF51FB1952179600BB76D1 /* unroot in Resources */ = {isa = PBXBuildFile; fileRef = B6AF51F81952179600BB76D1 /* unroot */; };
+		B6B678D619BDBFA300546B8D /* zergRush in Resources */ = {isa = PBXBuildFile; fileRef = B6B678D519BDBFA300546B8D /* zergRush */; };
+		B6B678D819BDC05800546B8D /* rageagainstthecage in Resources */ = {isa = PBXBuildFile; fileRef = B6B678D719BDC05800546B8D /* rageagainstthecage */; };
+		B6BB140A195DCB15003CD7BD /* SuperUser.apk in Resources */ = {isa = PBXBuildFile; fileRef = B6BB1409195DCB15003CD7BD /* SuperUser.apk */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B600CC56193718D6003498C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B600CC29193718D6003498C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B600CC30193718D6003498C3;
+			remoteInfo = XRoot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B600CC31193718D6003498C3 /* XRoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XRoot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B600CC34193718D6003498C3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B600CC37193718D6003498C3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B600CC38193718D6003498C3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B600CC39193718D6003498C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B600CC3C193718D6003498C3 /* XRoot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XRoot-Info.plist"; sourceTree = "<group>"; };
+		B600CC3E193718D6003498C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B600CC40193718D6003498C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B600CC42193718D6003498C3 /* XRoot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XRoot-Prefix.pch"; sourceTree = "<group>"; };
+		B600CC44193718D6003498C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B600CC46193718D6003498C3 /* XROAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XROAppDelegate.h; sourceTree = "<group>"; };
+		B600CC47193718D6003498C3 /* XROAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XROAppDelegate.m; sourceTree = "<group>"; };
+		B600CC4C193718D6003498C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B600CC52193718D6003498C3 /* XRootTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XRootTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B600CC53193718D6003498C3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B600CC5A193718D6003498C3 /* XRootTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XRootTests-Info.plist"; sourceTree = "<group>"; };
+		B600CC5C193718D6003498C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B600CC5E193718D6003498C3 /* XRootTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRootTests.m; sourceTree = "<group>"; };
+		B605FC5319992C8A00355770 /* pwn */ = {isa = PBXFileReference; lastKnownFileType = file; path = pwn; sourceTree = "<group>"; };
+		B6171394195B2D460058816E /* xroot.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = xroot.sh; sourceTree = "<group>"; };
+		B636318C195734A9004AB6A5 /* towelroot.apk */ = {isa = PBXFileReference; lastKnownFileType = file; path = towelroot.apk; sourceTree = "<group>"; };
+		B63C2C5819588E4000C60AB9 /* exynos */ = {isa = PBXFileReference; lastKnownFileType = file; path = exynos; sourceTree = "<group>"; };
+		B63C2C5919588E4A00C60AB9 /* root */ = {isa = PBXFileReference; lastKnownFileType = file; path = root; sourceTree = "<group>"; };
+		B63C2C5A19588E5600C60AB9 /* root.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = root.sh; sourceTree = "<group>"; };
+		B6416D9F195AF502008A7EC2 /* getroot */ = {isa = PBXFileReference; lastKnownFileType = file; path = getroot; sourceTree = "<group>"; };
+		B6416DA0195AF56E008A7EC2 /* install-recovery.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "install-recovery.sh"; sourceTree = "<group>"; };
+		B653798C199376FE00CFE8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = XRoot/Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B653799119937BDA00CFE8E0 /* HUDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDWindow.h; sourceTree = "<group>"; };
+		B653799219937BDA00CFE8E0 /* HUDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDWindow.m; sourceTree = "<group>"; };
+		B65B4A43195B10680010FA29 /* su */ = {isa = PBXFileReference; lastKnownFileType = file; path = su; sourceTree = "<group>"; };
+		B6AF51F01952145E00BB76D1 /* adb */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = adb; sourceTree = "<group>"; };
+		B6AF51F11952145E00BB76D1 /* busybox */ = {isa = PBXFileReference; lastKnownFileType = file; path = busybox; sourceTree = "<group>"; };
+		B6AF51F81952179600BB76D1 /* unroot */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unroot; sourceTree = "<group>"; };
+		B6B678D519BDBFA300546B8D /* zergRush */ = {isa = PBXFileReference; lastKnownFileType = file; path = zergRush; sourceTree = "<group>"; };
+		B6B678D719BDC05800546B8D /* rageagainstthecage */ = {isa = PBXFileReference; lastKnownFileType = file; name = rageagainstthecage; path = "../../../GitHub/android_root_tools-master/Exploits/rageagainstthecage"; sourceTree = "<group>"; };
+		B6BB1409195DCB15003CD7BD /* SuperUser.apk */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuperUser.apk; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B600CC2E193718D6003498C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B636318E19573F18004AB6A5 /* CoreData.framework in Frameworks */,
+				B600CC35193718D6003498C3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B600CC4F193718D6003498C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B600CC55193718D6003498C3 /* Cocoa.framework in Frameworks */,
+				B600CC54193718D6003498C3 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B600CC28193718D6003498C3 = {
+			isa = PBXGroup;
+			children = (
+				B653798B199376FE00CFE8E0 /* MainMenu.xib */,
+				B600CC3A193718D6003498C3 /* XRoot */,
+				B600CC58193718D6003498C3 /* XRootTests */,
+				B600CC33193718D6003498C3 /* Frameworks */,
+				B600CC32193718D6003498C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B600CC32193718D6003498C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B600CC31193718D6003498C3 /* XRoot.app */,
+				B600CC52193718D6003498C3 /* XRootTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B600CC33193718D6003498C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B600CC34193718D6003498C3 /* Cocoa.framework */,
+				B600CC53193718D6003498C3 /* XCTest.framework */,
+				B600CC36193718D6003498C3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B600CC36193718D6003498C3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B600CC37193718D6003498C3 /* AppKit.framework */,
+				B600CC38193718D6003498C3 /* CoreData.framework */,
+				B600CC39193718D6003498C3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B600CC3A193718D6003498C3 /* XRoot */ = {
+			isa = PBXGroup;
+			children = (
+				B600CC46193718D6003498C3 /* XROAppDelegate.h */,
+				B600CC47193718D6003498C3 /* XROAppDelegate.m */,
+				B600CC4C193718D6003498C3 /* Images.xcassets */,
+				B600CC3B193718D6003498C3 /* Supporting Files */,
+				B6171394195B2D460058816E /* xroot.sh */,
+				B679B24C19BCDF80009DDC84 /* HUDWindow */,
+			);
+			path = XRoot;
+			sourceTree = "<group>";
+		};
+		B600CC3B193718D6003498C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6B678D719BDC05800546B8D /* rageagainstthecage */,
+				B6B678D519BDBFA300546B8D /* zergRush */,
+				B605FC5319992C8A00355770 /* pwn */,
+				B6416D9E195AF4F2008A7EC2 /* Exynos */,
+				B6416D9F195AF502008A7EC2 /* getroot */,
+				B65B4A43195B10680010FA29 /* su */,
+				B6416DA0195AF56E008A7EC2 /* install-recovery.sh */,
+				B636318C195734A9004AB6A5 /* towelroot.apk */,
+				B6AF51F81952179600BB76D1 /* unroot */,
+				B6AF51F01952145E00BB76D1 /* adb */,
+				B6AF51F11952145E00BB76D1 /* busybox */,
+				B600CC3C193718D6003498C3 /* XRoot-Info.plist */,
+				B600CC3D193718D6003498C3 /* InfoPlist.strings */,
+				B600CC40193718D6003498C3 /* main.m */,
+				B600CC42193718D6003498C3 /* XRoot-Prefix.pch */,
+				B600CC43193718D6003498C3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B600CC58193718D6003498C3 /* XRootTests */ = {
+			isa = PBXGroup;
+			children = (
+				B600CC5E193718D6003498C3 /* XRootTests.m */,
+				B600CC59193718D6003498C3 /* Supporting Files */,
+			);
+			path = XRootTests;
+			sourceTree = "<group>";
+		};
+		B600CC59193718D6003498C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B600CC5A193718D6003498C3 /* XRootTests-Info.plist */,
+				B600CC5B193718D6003498C3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6416D9E195AF4F2008A7EC2 /* Exynos */ = {
+			isa = PBXGroup;
+			children = (
+				B63C2C5919588E4A00C60AB9 /* root */,
+				B63C2C5A19588E5600C60AB9 /* root.sh */,
+				B63C2C5819588E4000C60AB9 /* exynos */,
+				B6BB1409195DCB15003CD7BD /* SuperUser.apk */,
+			);
+			name = Exynos;
+			sourceTree = "<group>";
+		};
+		B679B24C19BCDF80009DDC84 /* HUDWindow */ = {
+			isa = PBXGroup;
+			children = (
+				B653799119937BDA00CFE8E0 /* HUDWindow.h */,
+				B653799219937BDA00CFE8E0 /* HUDWindow.m */,
+			);
+			name = HUDWindow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B600CC30193718D6003498C3 /* XRoot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B600CC62193718D6003498C3 /* Build configuration list for PBXNativeTarget "XRoot" */;
+			buildPhases = (
+				B600CC2D193718D6003498C3 /* Sources */,
+				B600CC2E193718D6003498C3 /* Frameworks */,
+				B600CC2F193718D6003498C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XRoot;
+			productName = XRoot;
+			productReference = B600CC31193718D6003498C3 /* XRoot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B600CC51193718D6003498C3 /* XRootTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B600CC65193718D6003498C3 /* Build configuration list for PBXNativeTarget "XRootTests" */;
+			buildPhases = (
+				B600CC4E193718D6003498C3 /* Sources */,
+				B600CC4F193718D6003498C3 /* Frameworks */,
+				B600CC50193718D6003498C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B600CC57193718D6003498C3 /* PBXTargetDependency */,
+			);
+			name = XRootTests;
+			productName = XRootTests;
+			productReference = B600CC52193718D6003498C3 /* XRootTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B600CC29193718D6003498C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XRO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = XWorks;
+				TargetAttributes = {
+					B600CC51193718D6003498C3 = {
+						TestTargetID = B600CC30193718D6003498C3;
+					};
+				};
+			};
+			buildConfigurationList = B600CC2C193718D6003498C3 /* Build configuration list for PBXProject "XRoot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B600CC28193718D6003498C3;
+			productRefGroup = B600CC32193718D6003498C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B600CC30193718D6003498C3 /* XRoot */,
+				B600CC51193718D6003498C3 /* XRootTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B600CC2F193718D6003498C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63C2C5C19588E8F00C60AB9 /* exynos in Resources */,
+				B6416DA1195AF56E008A7EC2 /* install-recovery.sh in Resources */,
+				B605FC5419992C8A00355770 /* pwn in Resources */,
+				B6AF51F31952145E00BB76D1 /* adb in Resources */,
+				B63C2C5D19588E9500C60AB9 /* root in Resources */,
+				B600CC3F193718D6003498C3 /* InfoPlist.strings in Resources */,
+				B65B4A44195B10680010FA29 /* su in Resources */,
+				B6416DA2195AF95A008A7EC2 /* getroot in Resources */,
+				B653798D199376FE00CFE8E0 /* MainMenu.xib in Resources */,
+				B600CC4D193718D6003498C3 /* Images.xcassets in Resources */,
+				B6AF51F41952145E00BB76D1 /* busybox in Resources */,
+				B63C2C5B19588E5600C60AB9 /* root.sh in Resources */,
+				B6AF51FB1952179600BB76D1 /* unroot in Resources */,
+				B6B678D819BDC05800546B8D /* rageagainstthecage in Resources */,
+				B600CC45193718D6003498C3 /* Credits.rtf in Resources */,
+				B6BB140A195DCB15003CD7BD /* SuperUser.apk in Resources */,
+				B636318D1957351B004AB6A5 /* towelroot.apk in Resources */,
+				B6B678D619BDBFA300546B8D /* zergRush in Resources */,
+				B65379881993751F00CFE8E0 /* XRoot-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B600CC50193718D6003498C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B600CC5D193718D6003498C3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B600CC2D193718D6003498C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B600CC48193718D6003498C3 /* XROAppDelegate.m in Sources */,
+				B600CC41193718D6003498C3 /* main.m in Sources */,
+				B653799319937BDA00CFE8E0 /* HUDWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B600CC4E193718D6003498C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B600CC5F193718D6003498C3 /* XRootTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B600CC57193718D6003498C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B600CC30193718D6003498C3 /* XRoot */;
+			targetProxy = B600CC56193718D6003498C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B600CC3D193718D6003498C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B600CC3E193718D6003498C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B600CC43193718D6003498C3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B600CC44193718D6003498C3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B600CC5B193718D6003498C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B600CC5C193718D6003498C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B653798B199376FE00CFE8E0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B653798C199376FE00CFE8E0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B600CC60193718D6003498C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B600CC61193718D6003498C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B600CC63193718D6003498C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XRoot/XRoot-Prefix.pch";
+				INFOPLIST_FILE = "XRoot/XRoot-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XRoot/GitHub/indic-text-renderer/jni/harfbuzz-ng/src/.libs",
+					"$(PROJECT_DIR)/XRoot/GitHub/indic-text-renderer/obj/local/armeabi",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B600CC64193718D6003498C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XRoot/XRoot-Prefix.pch";
+				INFOPLIST_FILE = "XRoot/XRoot-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XRoot/GitHub/indic-text-renderer/jni/harfbuzz-ng/src/.libs",
+					"$(PROJECT_DIR)/XRoot/GitHub/indic-text-renderer/obj/local/armeabi",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B600CC66193718D6003498C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XRoot.app/Contents/MacOS/XRoot";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XRoot/XRoot-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XRootTests/XRootTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B600CC67193718D6003498C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XRoot.app/Contents/MacOS/XRoot";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XRoot/XRoot-Prefix.pch";
+				INFOPLIST_FILE = "XRootTests/XRootTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B600CC2C193718D6003498C3 /* Build configuration list for PBXProject "XRoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B600CC60193718D6003498C3 /* Debug */,
+				B600CC61193718D6003498C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B600CC62193718D6003498C3 /* Build configuration list for PBXNativeTarget "XRoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B600CC63193718D6003498C3 /* Debug */,
+				B600CC64193718D6003498C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B600CC65193718D6003498C3 /* Build configuration list for PBXNativeTarget "XRootTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B600CC66193718D6003498C3 /* Debug */,
+				B600CC67193718D6003498C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B600CC29193718D6003498C3 /* Project object */;
+}
