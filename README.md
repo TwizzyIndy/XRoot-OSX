@@ -6,3 +6,5 @@ like TowelRoot, And Mgyun (VROOT)'s exploits, and many more ..
 
 This tiny prog aint support like MultiThreading and many more features like others.
 I just upload this app for knowing how the root programs work in their background and some educational purposes like Shell Execution ...
+
+This program registered under GNU General Public License v2.0.
